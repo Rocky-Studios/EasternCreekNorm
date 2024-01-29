@@ -1,0 +1,463 @@
+type = 2
+finish_line
+{
+	line = 0
+	long = 56
+	left = -4
+	right = 4
+}
+speedtrap_line
+{
+	line = 0
+	long = 839.4
+	left = -4
+	right = 4
+}
+split1
+{
+	line = 0
+	long = 366.06
+	left = -10
+	right = 10
+}
+split2
+{
+	line = 0
+	long = 676.11
+	left = -10
+	right = 10
+}
+pit_lane
+{
+	numstalls = 14
+	starttype = 1
+	startstartlong = 0
+	startdifflong = 0
+	startstartlat = 0
+	startendlat = 0
+	startanglerel = 0
+	startposx = 78
+	startposz = -80
+	startspacingx = 3
+	startspacingz = 4
+	startangleabs = 175
+	startcolumns = 2
+	start_stall0
+	{
+		long = 86.475372
+		lat = 18.844797
+		angle = -0.807007
+	}
+	start_stall1
+	{
+		long = 86.517632
+		lat = 21.844501
+		angle = -0.807007
+	}
+	start_stall2
+	{
+		long = 82.475769
+		lat = 18.901136
+		angle = -0.807007
+	}
+	start_stall3
+	{
+		long = 82.518028
+		lat = 21.900835
+		angle = -0.807007
+	}
+	start_stall4
+	{
+		long = 78.476166
+		lat = 18.957470
+		angle = -0.807007
+	}
+	start_stall5
+	{
+		long = 78.518425
+		lat = 21.957176
+		angle = -0.807007
+	}
+	start_stall6
+	{
+		long = 74.476563
+		lat = 19.013809
+		angle = -0.807007
+	}
+	start_stall7
+	{
+		long = 74.518822
+		lat = 22.013514
+		angle = -0.807007
+	}
+	start_stall8
+	{
+		long = 70.476959
+		lat = 19.070150
+		angle = -0.807007
+	}
+	start_stall9
+	{
+		long = 70.519218
+		lat = 22.069847
+		angle = -0.807007
+	}
+	start_stall10
+	{
+		long = 66.477356
+		lat = 19.126490
+		angle = -0.807007
+	}
+	start_stall11
+	{
+		long = 66.519608
+		lat = 22.126186
+		angle = -0.807007
+	}
+	start_stall12
+	{
+		long = 62.477760
+		lat = 19.182823
+		angle = -0.807007
+	}
+	start_stall13
+	{
+		long = 62.520020
+		lat = 22.182528
+		angle = -0.807007
+	}
+}
+starting_grid
+{
+	numstalls = 24
+	type = 0
+	posx = 0
+	posz = 0
+	angle = 0
+	numstallsperrow = 2
+	distfromstartline = 1
+	lanespacing = 0
+	rowspacing = 4
+	difflat = 0
+	lanewidth = 4
+	latshift = 0
+	side = 0
+	stall0
+	{
+		long = 55
+		lat = -2
+		angle = 0
+	}
+	stall1
+	{
+		long = 55
+		lat = 2
+		angle = 0
+	}
+	stall2
+	{
+		long = 51
+		lat = -2
+		angle = 0
+	}
+	stall3
+	{
+		long = 51
+		lat = 2
+		angle = 0
+	}
+	stall4
+	{
+		long = 47
+		lat = -2
+		angle = 0
+	}
+	stall5
+	{
+		long = 47
+		lat = 2
+		angle = 0
+	}
+	stall6
+	{
+		long = 43
+		lat = -2
+		angle = 0
+	}
+	stall7
+	{
+		long = 43
+		lat = 2
+		angle = 0
+	}
+	stall8
+	{
+		long = 39
+		lat = -2
+		angle = 0
+	}
+	stall9
+	{
+		long = 39
+		lat = 2
+		angle = 0
+	}
+	stall10
+	{
+		long = 35
+		lat = -2
+		angle = 0
+	}
+	stall11
+	{
+		long = 35
+		lat = 2
+		angle = 0
+	}
+	stall12
+	{
+		long = 31
+		lat = -2
+		angle = 0
+	}
+	stall13
+	{
+		long = 31
+		lat = 2
+		angle = 0
+	}
+	stall14
+	{
+		long = 27
+		lat = -2
+		angle = 0
+	}
+	stall15
+	{
+		long = 27
+		lat = 2
+		angle = 0
+	}
+	stall16
+	{
+		long = 23
+		lat = -2
+		angle = 0
+	}
+	stall17
+	{
+		long = 23
+		lat = 2
+		angle = 0
+	}
+	stall18
+	{
+		long = 19
+		lat = -2
+		angle = 0
+	}
+	stall19
+	{
+		long = 19
+		lat = 2
+		angle = 0
+	}
+	stall20
+	{
+		long = 15
+		lat = -2
+		angle = 0
+	}
+	stall21
+	{
+		long = 15
+		lat = 2
+		angle = 0
+	}
+	stall22
+	{
+		long = 11
+		lat = -2
+		angle = 0
+	}
+	stall23
+	{
+		long = 11
+		lat = 2
+		angle = 0
+	}
+}
+corridor0 = -2
+corridor1 = 2
+num_checkpoints = 19
+checkpoint0
+{
+	long = 0
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}
+checkpoint1
+{
+	long = 50
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}
+checkpoint2
+{
+	long = 100
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}
+checkpoint3
+{
+	long = 150
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}
+checkpoint4
+{
+	long = 200
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}
+checkpoint5
+{
+	long = 250
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}
+checkpoint6
+{
+	long = 300
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}
+checkpoint7
+{
+	long = 350
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}
+checkpoint8
+{
+	long = 400
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}
+checkpoint9
+{
+	long = 450
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}
+checkpoint10
+{
+	long = 500
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}
+checkpoint11
+{
+	long = 550
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}
+checkpoint12
+{
+	long = 600
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}
+checkpoint13
+{
+	long = 650
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}
+checkpoint14
+{
+	long = 700
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}
+checkpoint15
+{
+	long = 750
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}
+checkpoint16
+{
+	long = 800
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}
+checkpoint17
+{
+	long = 850
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}
+checkpoint18
+{
+	long = 900
+	left = -10
+	right = 10
+	penalty = 5
+	line = 0
+	start = 0
+}

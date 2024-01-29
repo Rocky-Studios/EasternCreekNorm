@@ -1,0 +1,96 @@
+
+sun_position
+{
+	x = 60
+	y = 100
+	z = -80
+}
+background = background.edf
+clear
+{
+	ambient
+	{
+		red = 0.4
+		green = 0.42
+		blue = 0.45
+	}
+	sun_color
+	{
+		red = 1
+		green = 0.98
+		blue = 0.9
+	}
+	fog
+	{
+		density = 0.0012
+		red = 1
+		green = 0.9
+		blue = 0.8
+	}
+	sky = clearsky.edf
+	sky_rot = 90
+	sky_color
+	{
+		red = 0.71
+		green = 0.79
+		blue = 0.87
+	}
+}
+cloudy
+{
+	ambient
+	{
+		red = 0.52
+		green = 0.55
+		blue = 0.6
+	}
+	sun_color
+	{
+		red = 0.31
+		green = 0.31
+		blue = 0.3
+	}
+	fog
+	{
+		density = 0.001
+		red = 0.7
+		green = 0.7
+		blue = 0.85
+	}
+	sky = cloudysky.edf
+	sky_color
+	{
+		red = 0.85
+		green = 0.88
+		blue = 0.88
+	}
+}
+rainy
+{
+	ambient
+	{
+		red = 0.46
+		green = 0.53
+		blue = 0.6
+	}
+	sun_color
+	{
+		red = 0.23
+		green = 0.22
+		blue = 0.2
+	}
+	fog
+	{
+		density = 0.004
+		red = 0.3
+		green = 0.35
+		blue = 0.4
+	}
+	sky = rainysky.edf
+	sky_color
+	{
+		red = 0.8
+		green = 0.9
+		blue = 0.95
+	}
+}
